@@ -7,7 +7,7 @@ package javaYT;
 //	AHUAUAHA
 //	AHUAHUAaUah
 	
-public class Aula2 {
+public class Aula02 {
 	
 	public static void main(String[] argas) {
 		
