@@ -17,8 +17,10 @@ public class MatematicaTeste {
 		double soma = mat.soma(mat.maior(2, 4), mat.maior(3, 5));
 		System.out.println(soma);
 		
-		int raiz = mat.raiz(276);
+		int raiz = mat.raiz(27);
 		System.out.println(raiz);
+		
+		System.out.println(Math.sqrt(27));
 		
 	}
 
