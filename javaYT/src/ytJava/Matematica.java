@@ -2,6 +2,7 @@ package ytJava;
 
 public class Matematica {
 	
+	
 	/**
 	 * 
 	 * @param um
@@ -16,11 +17,29 @@ public class Matematica {
 	}
 	}
 	
-	double soma (double um, double dois) {
-		double soma = um + dois;
-		
-		return soma;
+	//double soma (double um, double dois) {
+	//	double soma = um + dois;
+	
+	// Para numeros indefinidos de argumentos	
+	double soma(String titulo, double ... numeros) { 
+		System.out.println(titulo);
+		double total =0;
+		for(double n : numeros) {
+			total +=n;
+		}
+		return total;
+	
 	}
+	
+	// para array
+	double som (double[] numeros) {
+		double totali = 0;
+		for(double n: numeros) {
+			totali += n;
+		}
+		return totali;
+	}
+	
 	/**
 	 * 
 	 * @param numero
@@ -36,5 +55,7 @@ public class Matematica {
 		
 		return raiz;
 	}
+	
+	
 
 }
